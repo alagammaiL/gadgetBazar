@@ -1,0 +1,37 @@
+.AboutInfoLayout {
+  display: flex;
+  gap: 5rem;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  padding: 3rem;
+}
+.card {
+  background-color: #bbdefb;
+  border: none;
+  border-radius: 1rem;
+  padding: 2rem;
+  flex-basis: 500px;
+}
+.imgSetUp {
+  width: 35px;
+  height: 35px;
+  margin-bottom: 1.5rem;
+}
+.InfoStyle {
+  font-size: 1.3rem;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+}
+.AboutInfoOuter {
+  background-size: cover;
+  background-position: center;
+
+  background-image: linear-gradient(
+      to bottom,
+      rgba(96, 94, 93, 0.4),
+      rgba(96, 94, 93, 0.4)
+    ),
+    url(../assets/watchbackgrnd.png);
+}

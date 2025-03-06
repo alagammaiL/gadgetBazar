@@ -1,0 +1,76 @@
+.gridLayout {
+  display: grid;
+  grid-template-columns: 500px auto auto;
+}
+.headerContent {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 10rem;
+}
+.paragraph {
+  font-size: 1.5rem;
+  line-height: 1.7;
+  color: rgba(0, 0, 0, 0.9);
+  font-weight: 500;
+}
+.heading {
+  font-size: 6rem;
+}
+.rightarrowSvg {
+  width: 15px;
+  height: 15px;
+  margin-left: 5px;
+}
+.watchHero {
+  width: 100%;
+  height: auto;
+}
+.navButton {
+  background-color: #3498db;
+  color: white;
+  padding: 1.5rem;
+  border: none;
+  border-radius: 1rem;
+  width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttonContainer {
+  position: relative;
+}
+.functionality {
+  position: absolute;
+  background-color: #bbdefb;
+  border: none;
+  padding: 10px;
+  width: 25%;
+  border-radius: 20px;
+  display: inline-block;
+}
+.fitnessTracking {
+  top: 100px;
+  right: 20px;
+}
+.musicControl {
+  top: 175px;
+  right: -55px;
+}
+.compatability {
+  bottom: 200px;
+  right: 3px;
+}
+.gpsTracking {
+  bottom: 114px;
+  right: 60px;
+}
+.ImgIconOuter {
+  position: relative;
+}
+.imgIcon {
+  width: 30px;
+  position: absolute;
+  top: -18px;
+  left: -20px;
+}

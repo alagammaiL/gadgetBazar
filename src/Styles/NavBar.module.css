@@ -1,0 +1,46 @@
+.flexContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logoImg {
+  width: 150px;
+  margin-right: 20rem;
+}
+.flexLayoutNav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+a,
+a:link {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+a:hover {
+  color: black;
+}
+a:active {
+  color: black;
+}
+a:visited {
+  color: black;
+}
+.flexLayoutNavIcons {
+  display: flex;
+  gap: 1.8rem;
+  align-items: center;
+  justify-content: center;
+}
+.navButton {
+  background-color: #3498db;
+  color: white;
+  padding: 1.5rem;
+  border: none;
+  border-radius: 1rem;
+  width: 120px;
+}

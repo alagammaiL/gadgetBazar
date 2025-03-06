@@ -1,0 +1,57 @@
+/* .gridSpecial {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 350px;
+  row-gap: 3rem;
+  column-gap: 3rem;
+} */
+.rightarrowSvg {
+  width: 15px;
+  height: 15px;
+  margin-left: 5px;
+}
+.flexImg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.specialityImg {
+  width: 60%;
+  height: auto;
+  margin-bottom: 2rem;
+}
+.specialityImg2 {
+  width: 80%;
+}
+.shopnow {
+  width: 50%;
+}
+.SpecialityImg3 {
+  width: 60%;
+}
+.specials {
+  text-align: center;
+  margin: 4rem 0;
+}
+.splImgText {
+  letter-spacing: 1;
+  line-height: 1.7;
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+.boxContent {
+  margin-left: 5rem;
+}
+.specialButton {
+  background-color: #3498db;
+  color: white;
+  padding: 1.5rem;
+  border: none;
+  border-radius: 1rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
