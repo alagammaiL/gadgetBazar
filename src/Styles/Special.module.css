@@ -13,7 +13,7 @@
 .flexImg {
   display: flex;
   flex-direction: column;
-  align-items: center;
+
   justify-content: center;
 }
 .specialityImg {
@@ -21,8 +21,38 @@
   height: auto;
   margin-bottom: 2rem;
 }
+.divPseudo1 {
+  position: relative;
+}
+.divPseudo1::after {
+  content: "$130";
+  position: absolute;
+  display: block;
+  top: 20px;
+  right: 149px;
+  font-weight: 500;
+}
 .specialityImg2 {
   width: 80%;
+}
+.divPseudo2 {
+  position: relative;
+}
+.divPseudo2::after {
+  content: "$140";
+  position: absolute;
+  top: 20px;
+  right: 83px;
+  font-weight: 500;
+}
+.divPseudo3 {
+  position: relative;
+}
+.divPseudo3::after {
+  content: "$140";
+  position: absolute;
+  top: 20px;
+  right: 150px;
 }
 .shopnow {
   width: 50%;
@@ -50,7 +80,6 @@
   padding: 1.5rem;
   border: none;
   border-radius: 1rem;
-
   display: flex;
   align-items: center;
   justify-content: center;

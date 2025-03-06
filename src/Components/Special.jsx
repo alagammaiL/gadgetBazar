@@ -17,11 +17,13 @@ export default function Special() {
           md={{ justifyContent: "center", alignItems: "center" }}
         >
           <Grid item size={{ xs: 4, sm: 4, md: 4 }}>
-            <img
-              src={SpecialityImg1}
-              alt="specilaity1"
-              className={classes.specialityImg}
-            />
+            <div className={classes.divPseudo1}>
+              <img
+                src={SpecialityImg1}
+                alt="specilaity1"
+                className={`${classes.specialityImg} `}
+              />
+            </div>
             <p className={classes.splImgText}>
               Experience unparalleled wireless freedom with AirPods-your perfect
               companion for immersive sound, seamless connectivity, and all-day
@@ -46,20 +48,25 @@ export default function Special() {
             </button>
           </Grid>
           <Grid size={{ xs: 4, sm: 4, md: 4 }} item>
-            <img
-              src={SpecialityImg2}
-              alt="SpecialityImg2"
-              className={classes.specialityImg2}
-            />
+            <div className={classes.divPseudo2}>
+              <img
+                src={SpecialityImg2}
+                alt="SpecialityImg2"
+                className={`${classes.specialityImg2}`}
+              />
+            </div>
           </Grid>
           <Grid size={{ xs: 4, sm: 4, md: 4 }} item>
             <div className={classes.flexImg}>
               <img src={shopNow} alt="shop now" className={classes.shopnow} />
-              <img
-                src={SpecialityImg3}
-                alt="SpecialityImg3"
-                className={classes.SpecialityImg3}
-              />
+
+              <div className={classes.divPseudo3}>
+                <img
+                  src={SpecialityImg3}
+                  alt="SpecialityImg3"
+                  className={`${classes.SpecialityImg3}`}
+                />
+              </div>
             </div>
           </Grid>
         </Grid>
