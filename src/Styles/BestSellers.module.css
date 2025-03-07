@@ -1,3 +1,17 @@
 .layout {
   margin-top: 3rem;
 }
+.rightarrowSvg {
+  width: 15px;
+  height: 15px;
+  margin-left: 5px;
+}
+.buttonAlignment {
+  margin-left: auto;
+  margin-right: auto;
+}
+.buttonDesign {
+  background-color: #3498db !important;
+  font-size: 1.3rem !important;
+  text-transform: capitalize !important;
+}

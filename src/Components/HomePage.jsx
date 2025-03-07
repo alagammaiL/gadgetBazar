@@ -4,6 +4,7 @@ import NavLayout from "./NavLayout";
 import About from "./About";
 import Special from "./Special";
 import BestSellers from "./BestSellers";
+import Offers from "./Offers";
 export default function HomePage() {
   return (
     <div>
@@ -14,6 +15,7 @@ export default function HomePage() {
           <About />
           <Special />
           <BestSellers />
+          <Offers />
         </div>
       </div>
     </div>

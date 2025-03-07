@@ -1,0 +1,13 @@
+.CardContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.CardContent > p {
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.CardContentOuter {
+  background-color: #7b7b7b;
+}
