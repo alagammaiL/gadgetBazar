@@ -31,9 +31,8 @@ export default function BestSellerContent() {
   return (
     <>
       {data.map((item) => {
-        console.log(item);
         return (
-          <Grid item size={{ xs: 4, sm: 4, md: 4 }}>
+          <Grid item size={{ xs: 4, sm: 4, md: 4 }} key={item.id}>
             <Card
               sx={{ maxWidth: 257 }}
               style={{

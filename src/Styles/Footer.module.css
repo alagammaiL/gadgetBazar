@@ -1,0 +1,51 @@
+.buttonDesign {
+  background-color: #3498db !important;
+  font-size: 1.3rem !important;
+  text-transform: capitalize !important;
+  margin-top: 1.7rem !important;
+}
+.rightarrowSvg {
+  width: 15px;
+  height: 15px;
+  margin-left: 5px;
+}
+.icongFooter {
+  width: 12px;
+  height: auto;
+  margin-right: 1rem;
+}
+.gridLayout {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 7rem;
+}
+h1 {
+  font-size: 1.7rem;
+  margin-bottom: 1.5rem;
+}
+p {
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+.alignFix {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+li {
+  list-style-type: none;
+}
+.socialFix {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-bottom: 1.9rem;
+}
+.MuiInputBase {
+  font: caption !important;
+}
+.MuiInputBase input {
+  font: caption !important;
+}
