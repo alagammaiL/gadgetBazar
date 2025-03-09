@@ -32,7 +32,7 @@ export default function BestSellerContent() {
     <>
       {data.map((item) => {
         return (
-          <Grid item size={{ xs: 4, sm: 4, md: 4 }} key={item.id}>
+          <Grid item size={{ xs: 12, sm: 12, md: 4 }} key={item.id}>
             <Card
               sx={{ maxWidth: 257 }}
               style={{

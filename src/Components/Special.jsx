@@ -16,7 +16,7 @@ export default function Special() {
           spacing={7}
           md={{ justifyContent: "center", alignItems: "center" }}
         >
-          <Grid item size={{ xs: 4, sm: 4, md: 4 }}>
+          <Grid item size={{ xs: 12, sm: 12, md: 4 }}>
             <div className={classes.divPseudo1}>
               <img
                 src={SpecialityImg1}
@@ -47,7 +47,7 @@ export default function Special() {
               </svg>
             </button>
           </Grid>
-          <Grid size={{ xs: 4, sm: 4, md: 4 }} item>
+          <Grid size={{ xs: 12, sm: 12, md: 4 }} item>
             <div className={classes.divPseudo2}>
               <img
                 src={SpecialityImg2}
@@ -56,7 +56,7 @@ export default function Special() {
               />
             </div>
           </Grid>
-          <Grid size={{ xs: 4, sm: 4, md: 4 }} item>
+          <Grid size={{ xs: 12, sm: 12, md: 4 }} item>
             <div className={classes.flexImg}>
               <img src={shopNow} alt="shop now" className={classes.shopnow} />
 
