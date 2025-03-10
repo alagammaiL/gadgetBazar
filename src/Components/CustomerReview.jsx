@@ -9,37 +9,14 @@ import customer from "../assets/customer.png";
 import classes from "../Styles/CustomerReview.module.css";
 import Dialog from "../Components/Dialog";
 function SampleNextArrow(props) {
-  const { className, style, onClick } = props;
+  const { onClick } = props;
 
-  return (
-    <div
-      className={className}
-      style={{
-        ...style,
-        display: "block",
-        background: "black",
-        marginRight: "40px",
-      }}
-      onClick={onClick}
-    />
-  );
+  return <div className={classes.buttonContainer} onClick={onClick}></div>;
 }
 
-function SamplePrevArrow(props) {
-  const { className, style, onClick } = props;
-  return (
-    <div
-      className={className}
-      style={{
-        ...style,
-        display: "block",
-        background: "black",
-        marginLeft: "40px",
-        zIndex: 999999,
-      }}
-      onClick={onClick}
-    />
-  );
+function SamplePreviousArrow(props) {
+  const { onClick } = props;
+  return <div className={classes.buttonContainer1} onClick={onClick}></div>;
 }
 const data = [
   {
@@ -104,7 +81,7 @@ export default function CustomerReview(props) {
     slidesToScroll: 3,
     initialSlide: 0,
     nextArrow: <SampleNextArrow />,
-    prevArrow: <SamplePrevArrow />,
+    prevArrow: <SamplePreviousArrow />,
     responsive: [
       {
         breakpoint: 1024,

@@ -26,3 +26,37 @@
   letter-spacing: 1px;
   line-height: 1.5;
 }
+.buttonContainer {
+  position: relative;
+}
+.buttonContainer1 {
+  position: relative;
+}
+
+.buttonContainer1::before {
+  content: url("../assets/previous.png");
+  display: inline-block;
+  position: absolute;
+  z-index: 9999;
+  background-color: #bbdefb;
+  padding: 10px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  top: 93px;
+  left: 17px;
+}
+.buttonContainer::after {
+  content: url("../assets/next.png");
+  display: inline-block;
+  position: absolute;
+  background-color: #bbdefb;
+  padding: 10px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  bottom: 104px;
+  right: 17px;
+}
