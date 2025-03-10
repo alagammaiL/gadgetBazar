@@ -6,6 +6,7 @@
 }
 .backgroundImg {
   background-image: url("../assets/Rectangle13.png");
+  background-repeat: no-repeat;
 }
 .contaienr {
   max-width: 1100px;
