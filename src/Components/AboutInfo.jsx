@@ -4,10 +4,11 @@ import hassle_free from "../assets/hassle_free.png";
 import discount from "../assets/discounts.png";
 import customerSupport from "../assets/customerSupport.png";
 import watchbackground from "../assets/watchbackgrnd.png";
+import Grid from "@mui/material/Grid2";
 export default function AboutInfo() {
   return (
-    <div className={classes.AboutInfoOuter}>
-      <div className={classes.AboutInfoLayout}>
+    <Grid container spacing={3} className={classes.AboutInfoLayout}>
+      <Grid item size={{ xs: 12, sm: 6, md: 3 }}>
         <div className={classes.card}>
           <div>
             <img src={shipping} alt="shipping" className={classes.imgSetUp} />
@@ -17,6 +18,8 @@ export default function AboutInfo() {
             orders,with tracking information available for customers.
           </p>
         </div>
+      </Grid>
+      <Grid item size={{ xs: 12, sm: 6, md: 3 }}>
         <div className={classes.card}>
           <div>
             <img
@@ -31,6 +34,8 @@ export default function AboutInfo() {
             promptly.
           </p>
         </div>
+      </Grid>
+      <Grid item size={{ xs: 12, sm: 6, md: 3 }}>
         <div className={classes.card}>
           <div>
             <img src={discount} alt="discounts" className={classes.imgSetUp} />
@@ -40,6 +45,8 @@ export default function AboutInfo() {
             purchases and reward royal customers.
           </p>
         </div>
+      </Grid>
+      <Grid item size={{ xs: 12, sm: 6, md: 3 }}>
         <div className={classes.card}>
           <div>
             <img
@@ -53,7 +60,7 @@ export default function AboutInfo() {
             customers in case they are not satisfied with their purchases.
           </p>
         </div>
-      </div>
-    </div>
+      </Grid>
+    </Grid>
   );
 }

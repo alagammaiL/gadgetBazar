@@ -39,3 +39,20 @@
   text-transform: capitalize !important;
   margin-top: 1.5rem !important;
 }
+.paragraphWidth {
+  width: 80%;
+}
+.hiddenElement {
+  display: none;
+}
+@media (max-width: 900px) {
+  .paragraphWidth {
+    width: 100%;
+  }
+  .hiddenElement {
+    display: block;
+  }
+  .hiddenElementSmall {
+    display: none;
+  }
+}

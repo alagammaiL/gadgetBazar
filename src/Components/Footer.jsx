@@ -14,7 +14,7 @@ export default function Footer() {
   return (
     <>
       <Grid container className={classes.gridLayout} spacing={2}>
-        <Grid item size={{ xs: 6, sm: 6, md: 3 }}>
+        <Grid item size={{ xs: 12, sm: 12, md: 3 }}>
           <div>
             <h1>Contact Us</h1>
             <div className={classes.alignFix}>
@@ -106,7 +106,7 @@ export default function Footer() {
             </div>
           </div>
         </Grid>
-        <Grid item size={{ xs: 6, sm: 6, md: 4 }}>
+        <Grid item size={{ xs: 12, sm: 12, md: 4 }}>
           <div>
             <h1>Subscribe to our News Letter</h1>
             <div>

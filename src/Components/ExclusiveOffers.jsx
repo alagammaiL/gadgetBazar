@@ -5,7 +5,11 @@ import Button from "@mui/material/Button";
 export default function ExclusiveOffers() {
   return (
     <Grid container className={classes.layout}>
-      <Grid item size={{ xs: 6, sm: 6, md: 6 }} className={classes.layoutgrid}>
+      <Grid
+        item
+        size={{ xs: 12, sm: 12, md: 6 }}
+        className={`${classes.layoutgrid} ${classes.hiddenElementSmall}`}
+      >
         <div className={classes.backroundImg}>
           <img
             src={headphone}
@@ -14,11 +18,15 @@ export default function ExclusiveOffers() {
           />
         </div>
       </Grid>
-      <Grid item size={{ xs: 6, sm: 6, md: 6 }} className={classes.layoutgrid}>
+      <Grid
+        item
+        size={{ xs: 12, sm: 12, md: 6 }}
+        className={classes.layoutgrid}
+      >
         <div className={classes.headerContent}>
           <h1 className={classes.heading}>Discover exclusive Offers</h1>
 
-          <p style={{ width: "80%" }}>
+          <p className={classes.paragraphWidth}>
             Take advantage of our limited-time offers and enjoy discounts of up
             to [percentage] off.Don't miss out -shop now and elevate your tech
             game today!
@@ -46,6 +54,19 @@ export default function ExclusiveOffers() {
         >
           Buy Now
         </Button>
+      </Grid>
+      <Grid
+        item
+        size={{ xs: 12, sm: 12, md: 6 }}
+        className={`${classes.layoutgrid} ${classes.hiddenElement}`}
+      >
+        <div className={classes.backroundImg}>
+          <img
+            src={headphone}
+            alt="headphone"
+            className={classes.imageSizeFix}
+          />
+        </div>
       </Grid>
     </Grid>
   );

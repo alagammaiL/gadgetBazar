@@ -4,3 +4,17 @@
   grid-template-rows: repeat(2, 1fr);
   margin-bottom: 3rem;
 }
+.marginTop {
+  margin-top: 5rem;
+}
+.AboutInfoOuter {
+  background-size: cover;
+  background-position: center;
+
+  background-image: linear-gradient(
+      to bottom,
+      rgba(96, 94, 93, 0.4),
+      rgba(96, 94, 93, 0.4)
+    ),
+    url(../assets/watchbackgrnd.png);
+}

@@ -1,4 +1,5 @@
 import classes from "../Styles/Aboutdata.module.css";
+
 export default function Aboutdata() {
   return (
     <div className={classes.flexContainer}>

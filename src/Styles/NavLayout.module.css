@@ -1,6 +1,6 @@
 .gridLayout {
   display: grid;
-  grid-template-columns: 500px auto auto;
+  grid-template-columns: 500px auto;
 }
 .headerContent {
   display: flex;
@@ -73,4 +73,12 @@
   position: absolute;
   top: -18px;
   left: -20px;
+}
+@media (max-width: 680px) {
+  .functionality {
+    display: none;
+  }
+  .heading {
+    font-size: 4rem;
+  }
 }

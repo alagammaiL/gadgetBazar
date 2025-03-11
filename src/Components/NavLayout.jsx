@@ -5,11 +5,12 @@ import Rectangle13 from "../assets/Rectangle13.png";
 import FitnessImg from "../assets/fitness.png";
 import Music from "../assets/music.png";
 import compatability from "../assets/compatability.png";
+import Grid from "@mui/material/Grid2";
 import gps from "../assets/gps.png";
 export default function NavLayout() {
   return (
-    <>
-      <div className={classes.gridLayout}>
+    <Grid container>
+      <Grid item size={{ xs: 12, sm: 12, md: 6 }}>
         <div className={classes.headerContent}>
           <h1 className={classes.heading}>
             Introducing Our Top Pick of the Week
@@ -36,6 +37,8 @@ export default function NavLayout() {
             </svg>
           </button>
         </div>
+      </Grid>
+      <Grid item size={{ xs: 12, sm: 12, md: 6 }}>
         <div className={classes.buttonContainer}>
           <img src={WatchHero} alt="watch-hero" className={classes.watchHero} />
 
@@ -75,7 +78,7 @@ export default function NavLayout() {
             GPS Tracking
           </button>
         </div>
-      </div>
-    </>
+      </Grid>
+    </Grid>
   );
 }

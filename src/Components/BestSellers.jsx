@@ -5,17 +5,20 @@ import classes from "../Styles/BestSellers.module.css";
 import Button from "@mui/material/Button";
 export default function BestSellers() {
   return (
-    <Grid container className={classes.layout} spacing={5}>
+    <Grid container>
       <Grid item size={{ xs: 12, sm: 12, md: 12 }}>
         <BestSellerData />
       </Grid>
       <Grid item size={{ xs: 12, sm: 12, md: 12 }}>
         <Grid
           container
+          spacing={{ xs: 5, sm: 5 }}
           md={{
             justifyContent: "flex-end",
             alignItems: "center",
           }}
+          xs={{ justifyContent: "flex-start" }}
+          sm={{ justifyContent: "flex-start" }}
         >
           <BestSellerContent />
         </Grid>

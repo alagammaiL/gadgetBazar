@@ -1,15 +1,16 @@
-.Container {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 1100px;
-  margin-top: 3rem;
+.bgsetting {
+  background: linear-gradient(135deg, white 60%, #949496);
+  padding-left: 7rem;
+  padding-right: 7rem;
 }
-.backgroundImg {
-  background-image: url("../assets/Rectangle13.png");
-  background-repeat: no-repeat;
+.container {
+  width: auto;
+  max-width: 100%;
+  margin-top: 2rem;
 }
-.contaienr {
-  max-width: 1100px;
-  margin-left: auto;
-  margin-right: auto;
+@media (max-width: 680px) {
+  .bgsetting {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
 }

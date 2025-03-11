@@ -1,10 +1,9 @@
-/* .gridSpecial {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 350px;
-  row-gap: 3rem;
-  column-gap: 3rem;
-} */
+.layout {
+  margin-top: 3rem;
+  margin-bottom: 7rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
 .rightarrowSvg {
   width: 15px;
   height: 15px;
@@ -83,4 +82,23 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+@media (max-width: 680px) {
+  .flexImg {
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .layout {
+    padding: 2rem;
+  }
+  .divPseudo1::after {
+    right: 120px;
+  }
+  .divPseudo2::after {
+    right: 60px;
+  }
+  .divPseudo3::after {
+    right: 59px;
+    top: 7px;
+  }
 }

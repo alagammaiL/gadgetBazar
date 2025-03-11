@@ -1,16 +1,15 @@
-.flexContainer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 .logoImg {
   width: 150px;
   margin-right: 20rem;
 }
+.selfAlign {
+  align-self: center;
+  justify-self: center;
+}
 .flexLayoutNav {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: end;
   gap: 3rem;
 }
 a,
@@ -34,7 +33,7 @@ a:visited {
   display: flex;
   gap: 1.8rem;
   align-items: center;
-  justify-content: center;
+  justify-content: end;
 }
 .navButton {
   background-color: #3498db;
@@ -43,4 +42,16 @@ a:visited {
   border: none;
   border-radius: 1rem;
   width: 120px;
+}
+@media (max-width: 680px) {
+  .flexLayoutNav {
+    justify-content: start;
+    gap: 3rem;
+  }
+}
+@media (max-width: 900px) {
+  .flexLayoutNav {
+    justify-content: start;
+    gap: 3rem;
+  }
 }

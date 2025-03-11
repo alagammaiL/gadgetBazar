@@ -1,4 +1,4 @@
-import classes from "../Styles/Aboutdata.module.css";
+import classes from "../Styles/BestSellerData.module.css";
 export default function BestSellerData() {
   return (
     <div className={classes.flexContainer}>
