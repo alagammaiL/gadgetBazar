@@ -43,6 +43,20 @@ a:visited {
   border-radius: 1rem;
   width: 120px;
 }
+.hideDrawer {
+  display: none;
+}
+.iconSize {
+  width: 25px;
+  height: 25px;
+  color: #3498db;
+}
+.flexLayoutNavBarMbl {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+}
 @media (max-width: 680px) {
   .flexLayoutNav {
     justify-content: start;
@@ -53,5 +67,13 @@ a:visited {
   .flexLayoutNav {
     justify-content: start;
     gap: 3rem;
+  }
+}
+@media (max-width: 600px) {
+  .displayDrawer {
+    display: none;
+  }
+  .hideDrawer {
+    display: block;
   }
 }
